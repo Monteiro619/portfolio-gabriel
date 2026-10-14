@@ -62,3 +62,10 @@ python gerar-site.py
 Isso atualiza `index.html`. Envie o JSON e o HTML atualizado ao GitHub. Não é necessário executar o script no GitHub Pages.
 
 Os textos e links dos projetos ficam no script `gerar-site.py`. Os estilos podem ser editados diretamente nos arquivos CSS. Para atualizar o currículo disponível para download, substitua os arquivos em `assets/docs` mantendo os nomes.
+
+## Painel de Emendas Parlamentares
+
+Demonstração interativa com filtros, indicadores financeiros, cadastro, edição e CSV. Todos os valores e registros são fictícios.
+
+- [Testar o painel](https://monteiro619.github.io/portfolio-gabriel/painel-emendas/)
+- [Código e documentação](painel-emendas/README.md)
