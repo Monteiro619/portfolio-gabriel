@@ -2,21 +2,6 @@
 
 Site estático preparado para GitHub Pages, com layout para desktop, tablet e celular. Não precisa de servidor Node.js, banco de dados, instalação de pacotes ou processo de build para publicar.
 
-## Publicar no GitHub Pages
-
-1. Extraia o arquivo ZIP.
-2. Crie ou escolha um repositório no GitHub. Um nome possível é `portfolio-gabriel`.
-3. Envie **o conteúdo da pasta**, incluindo `index.html` e `assets`, para a raiz do repositório. Não coloque tudo dentro de uma pasta adicional.
-4. Abra **Settings → Pages** no repositório.
-5. Em **Build and deployment → Source**, selecione **Deploy from a branch**.
-6. Escolha a branch que contém os arquivos, por exemplo **main**, e a pasta **/(root)**. Salve.
-7. Aguarde a publicação. O GitHub exibirá o endereço do site nessa página.
-
-Se você usar o repositório `portfolio-gabriel` na conta `Monteiro619`, o endereço esperado será `https://monteiro619.github.io/portfolio-gabriel/`. Esse é um exemplo de endereço futuro; o pacote não foi publicado automaticamente.
-
-Também funciona no repositório de site pessoal `monteiro619.github.io` ou em outro nome de repositório. Os caminhos de arquivos são relativos para funcionar nesses diferentes destinos.
-
-Referência oficial: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 ## Conteúdo e arquivos
 
