@@ -76,3 +76,10 @@ Pesquisa de proposições com a API oficial da Câmara dos Deputados, lista pess
 
 - [Testar o radar](https://monteiro619.github.io/portfolio-gabriel/radar-legislativo/)
 - [Código e documentação](radar-legislativo/README.md)
+
+## Agenda da Câmara
+
+Calendário interativo e lista de eventos com a API oficial, filtros por órgão e período, consulta de pautas e agenda pessoal.
+
+- [Testar a agenda](https://monteiro619.github.io/portfolio-gabriel/agenda-camara/)
+- [Código e documentação](agenda-camara/README.md)
