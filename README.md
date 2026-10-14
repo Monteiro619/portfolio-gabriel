@@ -69,3 +69,10 @@ Demonstração interativa com filtros, indicadores financeiros, cadastro, ediç�
 
 - [Testar o painel](https://monteiro619.github.io/portfolio-gabriel/painel-emendas/)
 - [Código e documentação](painel-emendas/README.md)
+
+## Radar Legislativo
+
+Pesquisa de proposições com a API oficial da Câmara dos Deputados, lista pessoal e comparação manual de tramitações. Layout para computador e celular.
+
+- [Testar o radar](https://monteiro619.github.io/portfolio-gabriel/radar-legislativo/)
+- [Código e documentação](radar-legislativo/README.md)
