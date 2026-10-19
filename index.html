@@ -12,7 +12,7 @@ html,body{margin:0;padding:0}body{min-width:320px}
 button,summary{cursor:pointer}
 #gabriel-creative-portfolio{min-height:100vh}
 #gabriel-creative-portfolio .cursor-interaction{cursor:pointer}
-#gabriel-creative-portfolio .gp-hero h1{font-size:clamp(36px,5.3vw,65px)}
+#gabriel-creative-portfolio .gp-hero h1{font-size:clamp(2.5rem,5.3vw,4.25rem)}
 .gp-skip{position:absolute;top:8px;left:8px;transform:translateY(-160%);z-index:10;background:#193a30;color:#f3f5e9;padding:12px 16px;border-radius:5px}
 .gp-skip:focus{transform:translateY(0)}
 a:focus-visible,summary:focus-visible{outline:3px solid light-dark(#406b53,#c4d795);outline-offset:4px}
@@ -21,7 +21,7 @@ a:focus-visible,summary:focus-visible{outline:3px solid light-dark(#406b53,#c4d7
 <a class="gp-skip" href="#conteudo">Ir para o conteúdo</a>
 <div id="gabriel-creative-portfolio">
   <style>
-    #gabriel-creative-portfolio{--gp-bg:light-dark(#f6f5ef,#171d1b);--gp-ink:light-dark(#203d34,#edf1e8);--gp-soft:light-dark(#e9ede4,#29362e);--gp-panel:light-dark(#ffffff,#202b25);--gp-muted:light-dark(#58665d,#bdc8be);--gp-line:light-dark(#d4ddd2,#445548);--gp-accent:light-dark(#ccd99b,#c4d795);--gp-dark:#193a30;--gp-on-dark:#f3f5e9;font-family:Arial,Helvetica,sans-serif;color:var(--gp-ink);background:var(--gp-bg);font-size:16px;line-height:1.6;width:100%;overflow-wrap:anywhere;container-type:inline-size}
+    #gabriel-creative-portfolio{--gp-bg:light-dark(#f6f5ef,#171d1b);--gp-ink:light-dark(#203d34,#edf1e8);--gp-soft:light-dark(#e9ede4,#29362e);--gp-panel:light-dark(#ffffff,#202b25);--gp-muted:light-dark(#58665d,#bdc8be);--gp-line:light-dark(#d4ddd2,#445548);--gp-accent:light-dark(#ccd99b,#c4d795);--gp-dark:#193a30;--gp-on-dark:#f3f5e9;font-family:Arial,Helvetica,sans-serif;color:var(--gp-ink);background:var(--gp-bg);font-size:1.125rem;line-height:1.6;width:100%;overflow-wrap:anywhere;container-type:inline-size}
     #gabriel-creative-portfolio *{box-sizing:border-box}
     #gabriel-creative-portfolio h1,#gabriel-creative-portfolio h2,#gabriel-creative-portfolio h3,#gabriel-creative-portfolio p{margin:0}
     #gabriel-creative-portfolio a{color:inherit;text-decoration:none}
@@ -29,46 +29,46 @@ a:focus-visible,summary:focus-visible{outline:3px solid light-dark(#406b53,#c4d7
     #gabriel-creative-portfolio .gp-wrap{max-width:1180px;margin:0 auto;padding:0 40px}
     #gabriel-creative-portfolio .gp-header{border-bottom:1px solid var(--gp-line)}
     #gabriel-creative-portfolio .gp-nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:22px;padding-bottom:22px}
-    #gabriel-creative-portfolio .gp-brand{font-size:15px;font-weight:700;letter-spacing:-.3px;display:flex;align-items:center;gap:10px}
-    #gabriel-creative-portfolio .gp-monogram{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--gp-ink);color:var(--gp-bg);font-size:12px;letter-spacing:0}
-    #gabriel-creative-portfolio .gp-links{display:flex;align-items:center;gap:25px;font-size:13px}
+    #gabriel-creative-portfolio .gp-brand{font-size:1.125rem;font-weight:700;letter-spacing:-.3px;display:flex;align-items:center;gap:10px}
+    #gabriel-creative-portfolio .gp-monogram{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--gp-ink);color:var(--gp-bg);font-size:0.9375rem;letter-spacing:0}
+    #gabriel-creative-portfolio .gp-links{display:flex;align-items:center;gap:25px;font-size:1.125rem}
     #gabriel-creative-portfolio .gp-links a{padding:8px 0}
     #gabriel-creative-portfolio .gp-links a:hover{ text-decoration:underline;text-underline-offset:5px}
-    #gabriel-creative-portfolio .gp-mobile-nav{display:none;font-size:14px}
+    #gabriel-creative-portfolio .gp-mobile-nav{display:none;font-size:1.125rem}
     #gabriel-creative-portfolio .gp-mobile-nav summary{padding:10px;list-style:none}
     #gabriel-creative-portfolio .gp-mobile-nav nav{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 0}
     #gabriel-creative-portfolio .gp-mobile-nav a{padding:8px 0}
     #gabriel-creative-portfolio .gp-hero{display:grid;grid-template-columns:1.18fr 1fr;align-items:center;gap:42px;padding-top:64px;padding-bottom:65px}
-    #gabriel-creative-portfolio .gp-eyebrow{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
-    #gabriel-creative-portfolio .gp-hero h1{font-size:clamp(36px,5.3cqi,65px);line-height:1.03;letter-spacing:-2.6px;font-weight:500;margin:20px 0}
+    #gabriel-creative-portfolio .gp-eyebrow{font-size:0.875rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
+    #gabriel-creative-portfolio .gp-hero h1{font-size:clamp(2.5rem,5.3cqi,4.25rem);line-height:1.03;letter-spacing:-2.6px;font-weight:500;margin:20px 0}
     #gabriel-creative-portfolio .gp-hero h1 em{font-family:Georgia,serif;font-weight:400}
-    #gabriel-creative-portfolio .gp-lead{color:var(--gp-muted);font-size:16px;max-width:440px}
+    #gabriel-creative-portfolio .gp-lead{color:var(--gp-muted);font-size:1.125rem;max-width:440px}
     #gabriel-creative-portfolio .gp-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:27px}
-    #gabriel-creative-portfolio .gp-button{display:inline-flex;align-items:center;justify-content:center;gap:13px;min-height:45px;border-radius:5px;padding:10px 17px;background:var(--gp-ink);color:var(--gp-bg);font-size:13px;font-weight:600;border:1px solid var(--gp-ink)}
+    #gabriel-creative-portfolio .gp-button{display:inline-flex;align-items:center;justify-content:center;gap:13px;min-height:45px;border-radius:5px;padding:10px 17px;background:var(--gp-ink);color:var(--gp-bg);font-size:1.125rem;font-weight:600;border:1px solid var(--gp-ink)}
     #gabriel-creative-portfolio .gp-button-secondary{background:transparent;color:var(--gp-ink);border-color:var(--gp-line)}
-    #gabriel-creative-portfolio .gp-hero-caption{margin-top:23px;color:var(--gp-muted);font-size:12px}
+    #gabriel-creative-portfolio .gp-hero-caption{margin-top:23px;color:var(--gp-muted);font-size:0.9375rem}
     #gabriel-creative-portfolio .gp-desk{background:var(--gp-soft);border-radius:12px;padding:23px;min-height:340px;position:relative}
-    #gabriel-creative-portfolio .gp-desk-head{display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:10px;letter-spacing:1.4px;text-transform:uppercase}
+    #gabriel-creative-portfolio .gp-desk-head{display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:0.875rem;letter-spacing:1.4px;text-transform:uppercase}
     #gabriel-creative-portfolio .gp-dot{width:8px;height:8px;display:inline-block;border-radius:50%;background:var(--gp-ink);margin-right:5px}
     #gabriel-creative-portfolio .gp-note{padding:18px 21px;background:var(--gp-panel);border-radius:6px;box-shadow:0 10px 22px #13291c0a;transform:rotate(-2deg);margin:25px 18px 0 0}
-    #gabriel-creative-portfolio .gp-note small{font-size:10px;color:var(--gp-muted);letter-spacing:1.1px}
-    #gabriel-creative-portfolio .gp-note p{font-family:Georgia,serif;font-size:24px;line-height:1.3;margin-top:9px}
+    #gabriel-creative-portfolio .gp-note small{font-size:0.875rem;color:var(--gp-muted);letter-spacing:1.1px}
+    #gabriel-creative-portfolio .gp-note p{font-family:Georgia,serif;font-size:1.75rem;line-height:1.3;margin-top:9px}
     #gabriel-creative-portfolio .gp-note-two{background:var(--gp-dark);color:var(--gp-on-dark);transform:rotate(2deg);margin:16px 0 0 28px;padding:19px 21px;border-radius:6px}
-    #gabriel-creative-portfolio .gp-note-two small{font-size:10px;letter-spacing:1px;color:#d3dfd4}
-    #gabriel-creative-portfolio .gp-note-two p{font-size:14px;margin-top:10px}
-    #gabriel-creative-portfolio .gp-step-line{display:flex;justify-content:space-between;gap:8px;margin-top:17px;padding-top:13px;border-top:1px solid #688273;font-size:11px;color:#e4eadb}
-    #gabriel-creative-portfolio .gp-strip{border-top:1px solid var(--gp-line);border-bottom:1px solid var(--gp-line);padding-top:17px;padding-bottom:17px;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;font-size:12px;color:var(--gp-muted)}
+    #gabriel-creative-portfolio .gp-note-two small{font-size:0.875rem;letter-spacing:1px;color:#d3dfd4}
+    #gabriel-creative-portfolio .gp-note-two p{font-size:1.125rem;margin-top:10px}
+    #gabriel-creative-portfolio .gp-step-line{display:flex;justify-content:space-between;gap:8px;margin-top:17px;padding-top:13px;border-top:1px solid #688273;font-size:0.875rem;color:#e4eadb}
+    #gabriel-creative-portfolio .gp-strip{border-top:1px solid var(--gp-line);border-bottom:1px solid var(--gp-line);padding-top:17px;padding-bottom:17px;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;font-size:0.9375rem;color:var(--gp-muted)}
     #gabriel-creative-portfolio .gp-section{padding-top:55px;padding-bottom:57px}
     #gabriel-creative-portfolio .gp-section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:27px}
-    #gabriel-creative-portfolio .gp-section-head h2{font-size:32px;line-height:1.15;font-weight:500;letter-spacing:-1.1px;margin-top:10px}
-    #gabriel-creative-portfolio .gp-section-head>p{font-size:13px;color:var(--gp-muted);max-width:270px}
+    #gabriel-creative-portfolio .gp-section-head h2{font-size:2.25rem;line-height:1.15;font-weight:500;letter-spacing:-1.1px;margin-top:10px}
+    #gabriel-creative-portfolio .gp-section-head>p{font-size:1.125rem;color:var(--gp-muted);max-width:270px}
     #gabriel-creative-portfolio .gp-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px}
     #gabriel-creative-portfolio .gp-project{min-width:0}
     #gabriel-creative-portfolio .gp-preview{height:184px;border-radius:8px;padding:18px;background:var(--gp-soft);display:flex;flex-direction:column;justify-content:center;position:relative}
-    #gabriel-creative-portfolio .gp-preview-label{font-size:9px;letter-spacing:1px;color:var(--gp-muted);text-transform:uppercase;position:absolute;top:13px;left:17px}
-    #gabriel-creative-portfolio .gp-demo-window{background:var(--gp-panel);border:1px solid var(--gp-line);border-radius:5px;margin-top:12px;padding:10px;font-size:10px;color:var(--gp-ink)}
-    #gabriel-creative-portfolio .gp-demo-title{font-size:10px;font-weight:700;margin-bottom:9px}
-    #gabriel-creative-portfolio .gp-demo-categories{display:flex;gap:6px;font-size:8px;flex-wrap:wrap}
+    #gabriel-creative-portfolio .gp-preview-label{font-size:0.875rem;letter-spacing:1px;color:var(--gp-muted);text-transform:uppercase;position:absolute;top:13px;left:17px}
+    #gabriel-creative-portfolio .gp-demo-window{background:var(--gp-panel);border:1px solid var(--gp-line);border-radius:5px;margin-top:12px;padding:10px;font-size:0.875rem;color:var(--gp-ink)}
+    #gabriel-creative-portfolio .gp-demo-title{font-size:0.875rem;font-weight:700;margin-bottom:9px}
+    #gabriel-creative-portfolio .gp-demo-categories{display:flex;gap:6px;font-size:0.875rem;flex-wrap:wrap}
     #gabriel-creative-portfolio .gp-demo-categories span{padding:4px 6px;background:var(--gp-soft);border-radius:3px}
     #gabriel-creative-portfolio .gp-chart{display:flex;align-items:end;gap:9px;height:63px;padding-top:10px;border-bottom:1px solid var(--gp-line);margin-top:5px}
     #gabriel-creative-portfolio .gp-chart span{background:var(--gp-ink);flex:1;border-radius:2px 2px 0 0;opacity:.8}
@@ -76,48 +76,48 @@ a:focus-visible,summary:focus-visible{outline:3px solid light-dark(#406b53,#c4d7
     #gabriel-creative-portfolio .gp-preview-dark{background:var(--gp-dark);color:var(--gp-on-dark)}
     #gabriel-creative-portfolio .gp-preview-dark .gp-preview-label{color:#c0d1c4}
     #gabriel-creative-portfolio .gp-demo-row{padding:7px 0;border-top:1px solid var(--gp-line);display:flex;justify-content:space-between;gap:8px}
-    #gabriel-creative-portfolio .gp-chat-question{background:var(--gp-soft);padding:7px 10px;border-radius:6px 6px 0 6px;margin-left:23px;font-size:9px}
-    #gabriel-creative-portfolio .gp-chat-answer{padding:7px 8px;border:1px solid var(--gp-line);border-radius:6px 6px 6px 0;margin:9px 20px 0 0;font-size:9px}
-    #gabriel-creative-portfolio .gp-project-category{font-size:10px;color:var(--gp-muted);margin-top:17px;text-transform:uppercase;letter-spacing:1px}
-    #gabriel-creative-portfolio .gp-project h3{font-size:20px;font-weight:500;letter-spacing:-.5px;margin:5px 0 8px}
-    #gabriel-creative-portfolio .gp-project>p:last-of-type{color:var(--gp-muted);font-size:13px;min-height:65px}
-    #gabriel-creative-portfolio .gp-project details{font-size:12px;margin-top:15px}
+    #gabriel-creative-portfolio .gp-chat-question{background:var(--gp-soft);padding:7px 10px;border-radius:6px 6px 0 6px;margin-left:23px;font-size:0.875rem}
+    #gabriel-creative-portfolio .gp-chat-answer{padding:7px 8px;border:1px solid var(--gp-line);border-radius:6px 6px 6px 0;margin:9px 20px 0 0;font-size:0.875rem}
+    #gabriel-creative-portfolio .gp-project-category{font-size:0.875rem;color:var(--gp-muted);margin-top:17px;text-transform:uppercase;letter-spacing:1px}
+    #gabriel-creative-portfolio .gp-project h3{font-size:1.5rem;font-weight:500;letter-spacing:-.5px;margin:5px 0 8px}
+    #gabriel-creative-portfolio .gp-project>p:last-of-type{color:var(--gp-muted);font-size:1.125rem;min-height:65px}
+    #gabriel-creative-portfolio .gp-project details{font-size:0.9375rem;margin-top:15px}
     #gabriel-creative-portfolio .gp-project summary{list-style:none;border-top:1px solid var(--gp-line);padding:12px 0;display:flex;align-items:center;justify-content:space-between;font-weight:600;min-height:44px}
-    #gabriel-creative-portfolio .gp-project summary::after{content:'+';font-size:20px;font-weight:400}
+    #gabriel-creative-portfolio .gp-project summary::after{content:'+';font-size:1.5rem;font-weight:400}
     #gabriel-creative-portfolio .gp-project details[open] summary::after{content:'−'}
     #gabriel-creative-portfolio .gp-project-details{background:var(--gp-panel);border-radius:6px;padding:16px;display:grid;gap:13px}
-    #gabriel-creative-portfolio .gp-project-details strong{display:block;font-size:11px;margin-bottom:3px}
-    #gabriel-creative-portfolio .gp-project-details p{color:var(--gp-muted);font-size:12px}
-    #gabriel-creative-portfolio .gp-project-details a{font-size:12px;font-weight:600;text-decoration:underline;text-underline-offset:4px;padding:8px 0;display:block}
-    #gabriel-creative-portfolio .gp-caption{font-size:10px;color:var(--gp-muted);margin-top:16px}
+    #gabriel-creative-portfolio .gp-project-details strong{display:block;font-size:0.875rem;margin-bottom:3px}
+    #gabriel-creative-portfolio .gp-project-details p{color:var(--gp-muted);font-size:0.9375rem}
+    #gabriel-creative-portfolio .gp-project-details a{font-size:0.9375rem;font-weight:600;text-decoration:underline;text-underline-offset:4px;padding:8px 0;display:block}
+    #gabriel-creative-portfolio .gp-caption{font-size:0.875rem;color:var(--gp-muted);margin-top:16px}
     #gabriel-creative-portfolio .gp-method{border-top:1px solid var(--gp-line)}
     #gabriel-creative-portfolio .gp-method-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin-top:28px}
     #gabriel-creative-portfolio .gp-method-step{border-top:1px solid var(--gp-line);padding-top:14px}
-    #gabriel-creative-portfolio .gp-method-step>span{font-family:Georgia,serif;font-size:25px;color:var(--gp-muted)}
-    #gabriel-creative-portfolio .gp-method-step h3{font-size:15px;font-weight:600;margin:9px 0 6px}
-    #gabriel-creative-portfolio .gp-method-step p{font-size:12px;color:var(--gp-muted)}
+    #gabriel-creative-portfolio .gp-method-step>span{font-family:Georgia,serif;font-size:1.875rem;color:var(--gp-muted)}
+    #gabriel-creative-portfolio .gp-method-step h3{font-size:1.125rem;font-weight:600;margin:9px 0 6px}
+    #gabriel-creative-portfolio .gp-method-step p{font-size:0.9375rem;color:var(--gp-muted)}
     #gabriel-creative-portfolio .gp-ideas{background:var(--gp-soft)}
     #gabriel-creative-portfolio .gp-idea-list{border-top:1px solid var(--gp-line)}
     #gabriel-creative-portfolio .gp-idea{display:grid;grid-template-columns:180px 1fr;gap:25px;padding:23px 0;border-bottom:1px solid var(--gp-line)}
-    #gabriel-creative-portfolio .gp-idea h3{font-size:17px;font-weight:500;line-height:1.3}
-    #gabriel-creative-portfolio .gp-idea p{font-size:13px;color:var(--gp-muted);max-width:540px}
-    #gabriel-creative-portfolio .gp-concept{font-size:10px;display:inline-block;margin-top:7px;color:var(--gp-muted)}
+    #gabriel-creative-portfolio .gp-idea h3{font-size:1.375rem;font-weight:500;line-height:1.3}
+    #gabriel-creative-portfolio .gp-idea p{font-size:1.125rem;color:var(--gp-muted);max-width:540px}
+    #gabriel-creative-portfolio .gp-concept{font-size:0.875rem;display:inline-block;margin-top:7px;color:var(--gp-muted)}
     #gabriel-creative-portfolio .gp-about{display:grid;grid-template-columns:1fr 1.45fr;gap:50px}
-    #gabriel-creative-portfolio .gp-about h2{font-size:32px;letter-spacing:-1px;font-weight:500;line-height:1.2;margin-top:11px}
-    #gabriel-creative-portfolio .gp-about-copy p{font-size:14px;color:var(--gp-muted)}
+    #gabriel-creative-portfolio .gp-about h2{font-size:2.25rem;letter-spacing:-1px;font-weight:500;line-height:1.2;margin-top:11px}
+    #gabriel-creative-portfolio .gp-about-copy p{font-size:1.125rem;color:var(--gp-muted)}
     #gabriel-creative-portfolio .gp-about-copy p+p{margin-top:14px}
-    #gabriel-creative-portfolio .gp-text-link{display:inline-block;font-size:12px;font-weight:600;padding:12px 0;text-decoration:underline;text-underline-offset:5px}
+    #gabriel-creative-portfolio .gp-text-link{display:inline-block;font-size:0.9375rem;font-weight:600;padding:12px 0;text-decoration:underline;text-underline-offset:5px}
     #gabriel-creative-portfolio .gp-contact{background:var(--gp-dark);color:var(--gp-on-dark);padding-top:44px;padding-bottom:44px}
     #gabriel-creative-portfolio .gp-contact-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}
-    #gabriel-creative-portfolio .gp-contact h2{font-size:31px;font-weight:500;line-height:1.2;letter-spacing:-.8px;margin:10px 0}
-    #gabriel-creative-portfolio .gp-contact p{font-size:13px;color:#c7d8cd;max-width:430px}
+    #gabriel-creative-portfolio .gp-contact h2{font-size:2.125rem;font-weight:500;line-height:1.2;letter-spacing:-.8px;margin:10px 0}
+    #gabriel-creative-portfolio .gp-contact p{font-size:1.125rem;color:#c7d8cd;max-width:430px}
     #gabriel-creative-portfolio .gp-contact .gp-button{background:var(--gp-accent);color:#1c3829;border-color:var(--gp-accent)}
-    #gabriel-creative-portfolio .gp-footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;padding-top:20px;padding-bottom:20px;font-size:11px;color:var(--gp-muted)}
+    #gabriel-creative-portfolio .gp-footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;padding-top:20px;padding-bottom:20px;font-size:0.875rem;color:var(--gp-muted)}
     #gabriel-creative-portfolio .gp-footer-links{display:flex;gap:18px}
     #gabriel-creative-portfolio .gp-footer a{padding:7px 0}
     #gabriel-creative-portfolio .gp-resume{border-top:1px solid var(--gp-line);padding-top:36px;padding-bottom:36px;display:grid;grid-template-columns:1fr 1.3fr;gap:35px;align-items:center}
-    #gabriel-creative-portfolio .gp-resume h2{font-size:29px;line-height:1.2;font-weight:500;letter-spacing:-.8px;margin-top:10px}
-    #gabriel-creative-portfolio .gp-resume p:not(.gp-eyebrow){font-size:13px;color:var(--gp-muted);margin-top:12px;max-width:370px}
+    #gabriel-creative-portfolio .gp-resume h2{font-size:2.125rem;line-height:1.2;font-weight:500;letter-spacing:-.8px;margin-top:10px}
+    #gabriel-creative-portfolio .gp-resume p:not(.gp-eyebrow){font-size:1.125rem;color:var(--gp-muted);margin-top:12px;max-width:370px}
     #gabriel-creative-portfolio .gp-resume-actions{display:flex;flex-wrap:wrap;gap:10px}
     #gabriel-creative-portfolio .gp-resume-actions .gp-button{min-height:48px}
     #gabriel-creative-portfolio .gp-links{gap:19px}
@@ -126,11 +126,80 @@ a:focus-visible,summary:focus-visible{outline:3px solid light-dark(#406b53,#c4d7
     #gabriel-creative-portfolio .gp-project-details a{min-height:44px;display:flex;align-items:center}
     #gabriel-creative-portfolio :is(.gp-hero>*,.gp-about>*,.gp-contact-inner>*,.gp-resume>*){min-width:0}
     @container(max-width:820px){#gabriel-creative-portfolio .gp-nav{flex-wrap:wrap}#gabriel-creative-portfolio .gp-links{display:none}#gabriel-creative-portfolio .gp-mobile-nav{display:block}#gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}}
-    @container(max-width:590px){#gabriel-creative-portfolio .gp-resume{grid-template-columns:1fr;gap:22px}#gabriel-creative-portfolio .gp-resume-actions{display:grid;grid-template-columns:1fr;width:100%}#gabriel-creative-portfolio .gp-resume-actions .gp-button{width:100%;font-size:14px}#gabriel-creative-portfolio .gp-project>p:last-of-type,#gabriel-creative-portfolio .gp-about-copy p{font-size:15px}#gabriel-creative-portfolio .gp-project-details p{font-size:14px}#gabriel-creative-portfolio .gp-project summary{font-size:14px}}
-    @container(max-width:760px){#gabriel-creative-portfolio .gp-wrap{padding-left:25px;padding-right:25px}#gabriel-creative-portfolio .gp-hero{gap:27px;padding-top:40px;padding-bottom:40px}#gabriel-creative-portfolio .gp-desk{padding:17px;min-height:300px}#gabriel-creative-portfolio .gp-note p{font-size:21px}#gabriel-creative-portfolio .gp-projects{gap:14px}#gabriel-creative-portfolio .gp-preview{height:160px;padding:11px}#gabriel-creative-portfolio .gp-project h3{font-size:18px}#gabriel-creative-portfolio .gp-links{gap:15px}#gabriel-creative-portfolio .gp-about{gap:25px}}
-    @container(max-width:590px){#gabriel-creative-portfolio .gp-wrap{padding-left:20px;padding-right:20px}#gabriel-creative-portfolio .gp-hero{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-hero h1{font-size:42px;letter-spacing:-1.7px;max-width:430px}#gabriel-creative-portfolio .gp-desk{min-height:0;max-width:450px}#gabriel-creative-portfolio .gp-nav{flex-wrap:wrap;gap:7px}#gabriel-creative-portfolio .gp-links{display:none}#gabriel-creative-portfolio .gp-mobile-nav{display:block}#gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}#gabriel-creative-portfolio .gp-section{padding-top:37px;padding-bottom:37px}#gabriel-creative-portfolio .gp-section-head{display:block}#gabriel-creative-portfolio .gp-section-head>p{margin-top:12px;max-width:none}#gabriel-creative-portfolio .gp-section-head h2{font-size:29px}#gabriel-creative-portfolio .gp-projects{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-preview{height:200px;padding:24px}#gabriel-creative-portfolio .gp-demo-window{max-width:330px;width:100%;margin-left:auto;margin-right:auto}#gabriel-creative-portfolio .gp-project h3{font-size:22px}#gabriel-creative-portfolio .gp-project>p:last-of-type{min-height:0}#gabriel-creative-portfolio .gp-method-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}#gabriel-creative-portfolio .gp-idea{grid-template-columns:1fr;gap:10px}#gabriel-creative-portfolio .gp-about{grid-template-columns:1fr;gap:21px}#gabriel-creative-portfolio .gp-contact-inner{display:block}#gabriel-creative-portfolio .gp-contact .gp-button{margin-top:22px}#gabriel-creative-portfolio .gp-footer{display:block}#gabriel-creative-portfolio .gp-footer-links{margin-top:8px}#gabriel-creative-portfolio .gp-strip{justify-content:flex-start;gap:8px 20px}}
-    @container(max-width:350px){#gabriel-creative-portfolio .gp-hero h1{font-size:36px}#gabriel-creative-portfolio .gp-wrap{padding-left:16px;padding-right:16px}#gabriel-creative-portfolio .gp-note{margin-right:5px;padding:16px}#gabriel-creative-portfolio .gp-note-two{margin-left:10px;padding:16px}#gabriel-creative-portfolio .gp-step-line{font-size:10px}}
-  @supports not (container-type:inline-size){@media(max-width:820px){#gabriel-creative-portfolio .gp-nav{flex-wrap:wrap}#gabriel-creative-portfolio .gp-links{display:none}#gabriel-creative-portfolio .gp-mobile-nav{display:block}#gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}}@media(max-width:590px){#gabriel-creative-portfolio .gp-resume{grid-template-columns:1fr;gap:22px}#gabriel-creative-portfolio .gp-resume-actions{display:grid;grid-template-columns:1fr;width:100%}#gabriel-creative-portfolio .gp-resume-actions .gp-button{width:100%;font-size:14px}#gabriel-creative-portfolio .gp-project>p:last-of-type,#gabriel-creative-portfolio .gp-about-copy p{font-size:15px}#gabriel-creative-portfolio .gp-project-details p{font-size:14px}#gabriel-creative-portfolio .gp-project summary{font-size:14px}}@media(max-width:760px){#gabriel-creative-portfolio .gp-wrap{padding-left:25px;padding-right:25px}#gabriel-creative-portfolio .gp-hero{gap:27px;padding-top:40px;padding-bottom:40px}#gabriel-creative-portfolio .gp-desk{padding:17px;min-height:300px}#gabriel-creative-portfolio .gp-note p{font-size:21px}#gabriel-creative-portfolio .gp-projects{gap:14px}#gabriel-creative-portfolio .gp-preview{height:160px;padding:11px}#gabriel-creative-portfolio .gp-project h3{font-size:18px}#gabriel-creative-portfolio .gp-links{gap:15px}#gabriel-creative-portfolio .gp-about{gap:25px}}@media(max-width:590px){#gabriel-creative-portfolio .gp-wrap{padding-left:20px;padding-right:20px}#gabriel-creative-portfolio .gp-hero{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-hero h1{font-size:42px;letter-spacing:-1.7px;max-width:430px}#gabriel-creative-portfolio .gp-desk{min-height:0;max-width:450px}#gabriel-creative-portfolio .gp-nav{flex-wrap:wrap;gap:7px}#gabriel-creative-portfolio .gp-links{display:none}#gabriel-creative-portfolio .gp-mobile-nav{display:block}#gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}#gabriel-creative-portfolio .gp-section{padding-top:37px;padding-bottom:37px}#gabriel-creative-portfolio .gp-section-head{display:block}#gabriel-creative-portfolio .gp-section-head>p{margin-top:12px;max-width:none}#gabriel-creative-portfolio .gp-section-head h2{font-size:29px}#gabriel-creative-portfolio .gp-projects{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-preview{height:200px;padding:24px}#gabriel-creative-portfolio .gp-demo-window{max-width:330px;width:100%;margin-left:auto;margin-right:auto}#gabriel-creative-portfolio .gp-project h3{font-size:22px}#gabriel-creative-portfolio .gp-project>p:last-of-type{min-height:0}#gabriel-creative-portfolio .gp-method-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}#gabriel-creative-portfolio .gp-idea{grid-template-columns:1fr;gap:10px}#gabriel-creative-portfolio .gp-about{grid-template-columns:1fr;gap:21px}#gabriel-creative-portfolio .gp-contact-inner{display:block}#gabriel-creative-portfolio .gp-contact .gp-button{margin-top:22px}#gabriel-creative-portfolio .gp-footer{display:block}#gabriel-creative-portfolio .gp-footer-links{margin-top:8px}#gabriel-creative-portfolio .gp-strip{justify-content:flex-start;gap:8px 20px}}@media(max-width:350px){#gabriel-creative-portfolio .gp-hero h1{font-size:36px}#gabriel-creative-portfolio .gp-wrap{padding-left:16px;padding-right:16px}#gabriel-creative-portfolio .gp-note{margin-right:5px;padding:16px}#gabriel-creative-portfolio .gp-note-two{margin-left:10px;padding:16px}#gabriel-creative-portfolio .gp-step-line{font-size:10px}}}</style>
+    @container(max-width:590px){#gabriel-creative-portfolio .gp-resume{grid-template-columns:1fr;gap:22px}#gabriel-creative-portfolio .gp-resume-actions{display:grid;grid-template-columns:1fr;width:100%}#gabriel-creative-portfolio .gp-resume-actions .gp-button{width:100%;font-size:1.125rem}#gabriel-creative-portfolio .gp-project>p:last-of-type,#gabriel-creative-portfolio .gp-about-copy p{font-size:1.125rem}#gabriel-creative-portfolio .gp-project-details p{font-size:1.125rem}#gabriel-creative-portfolio .gp-project summary{font-size:1.125rem}}
+    @container(max-width:760px){#gabriel-creative-portfolio .gp-wrap{padding-left:25px;padding-right:25px}#gabriel-creative-portfolio .gp-hero{gap:27px;padding-top:40px;padding-bottom:40px}#gabriel-creative-portfolio .gp-desk{padding:17px;min-height:300px}#gabriel-creative-portfolio .gp-note p{font-size:1.625rem}#gabriel-creative-portfolio .gp-projects{gap:14px}#gabriel-creative-portfolio .gp-preview{height:160px;padding:11px}#gabriel-creative-portfolio .gp-project h3{font-size:1.375rem}#gabriel-creative-portfolio .gp-links{gap:15px}#gabriel-creative-portfolio .gp-about{gap:25px}}
+    @container(max-width:590px){#gabriel-creative-portfolio .gp-wrap{padding-left:20px;padding-right:20px}#gabriel-creative-portfolio .gp-hero{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-hero h1{font-size:2.875rem;letter-spacing:-1.7px;max-width:430px}#gabriel-creative-portfolio .gp-desk{min-height:0;max-width:450px}#gabriel-creative-portfolio .gp-nav{flex-wrap:wrap;gap:7px}#gabriel-creative-portfolio .gp-links{display:none}#gabriel-creative-portfolio .gp-mobile-nav{display:block}#gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}#gabriel-creative-portfolio .gp-section{padding-top:37px;padding-bottom:37px}#gabriel-creative-portfolio .gp-section-head{display:block}#gabriel-creative-portfolio .gp-section-head>p{margin-top:12px;max-width:none}#gabriel-creative-portfolio .gp-section-head h2{font-size:2.125rem}#gabriel-creative-portfolio .gp-projects{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-preview{height:200px;padding:24px}#gabriel-creative-portfolio .gp-demo-window{max-width:330px;width:100%;margin-left:auto;margin-right:auto}#gabriel-creative-portfolio .gp-project h3{font-size:1.5rem}#gabriel-creative-portfolio .gp-project>p:last-of-type{min-height:0}#gabriel-creative-portfolio .gp-method-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}#gabriel-creative-portfolio .gp-idea{grid-template-columns:1fr;gap:10px}#gabriel-creative-portfolio .gp-about{grid-template-columns:1fr;gap:21px}#gabriel-creative-portfolio .gp-contact-inner{display:block}#gabriel-creative-portfolio .gp-contact .gp-button{margin-top:22px}#gabriel-creative-portfolio .gp-footer{display:block}#gabriel-creative-portfolio .gp-footer-links{margin-top:8px}#gabriel-creative-portfolio .gp-strip{justify-content:flex-start;gap:8px 20px}}
+    @container(max-width:350px){#gabriel-creative-portfolio .gp-hero h1{font-size:2.5rem}#gabriel-creative-portfolio .gp-wrap{padding-left:16px;padding-right:16px}#gabriel-creative-portfolio .gp-note{margin-right:5px;padding:16px}#gabriel-creative-portfolio .gp-note-two{margin-left:10px;padding:16px}#gabriel-creative-portfolio .gp-step-line{font-size:0.875rem}}
+  @supports not (container-type:inline-size){@media(max-width:820px){#gabriel-creative-portfolio .gp-nav{flex-wrap:wrap}#gabriel-creative-portfolio .gp-links{display:none}#gabriel-creative-portfolio .gp-mobile-nav{display:block}#gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}}@media(max-width:590px){#gabriel-creative-portfolio .gp-resume{grid-template-columns:1fr;gap:22px}#gabriel-creative-portfolio .gp-resume-actions{display:grid;grid-template-columns:1fr;width:100%}#gabriel-creative-portfolio .gp-resume-actions .gp-button{width:100%;font-size:1.125rem}#gabriel-creative-portfolio .gp-project>p:last-of-type,#gabriel-creative-portfolio .gp-about-copy p{font-size:1.125rem}#gabriel-creative-portfolio .gp-project-details p{font-size:1.125rem}#gabriel-creative-portfolio .gp-project summary{font-size:1.125rem}}@media(max-width:760px){#gabriel-creative-portfolio .gp-wrap{padding-left:25px;padding-right:25px}#gabriel-creative-portfolio .gp-hero{gap:27px;padding-top:40px;padding-bottom:40px}#gabriel-creative-portfolio .gp-desk{padding:17px;min-height:300px}#gabriel-creative-portfolio .gp-note p{font-size:1.625rem}#gabriel-creative-portfolio .gp-projects{gap:14px}#gabriel-creative-portfolio .gp-preview{height:160px;padding:11px}#gabriel-creative-portfolio .gp-project h3{font-size:1.375rem}#gabriel-creative-portfolio .gp-links{gap:15px}#gabriel-creative-portfolio .gp-about{gap:25px}}@media(max-width:590px){#gabriel-creative-portfolio .gp-wrap{padding-left:20px;padding-right:20px}#gabriel-creative-portfolio .gp-hero{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-hero h1{font-size:2.875rem;letter-spacing:-1.7px;max-width:430px}#gabriel-creative-portfolio .gp-desk{min-height:0;max-width:450px}#gabriel-creative-portfolio .gp-nav{flex-wrap:wrap;gap:7px}#gabriel-creative-portfolio .gp-links{display:none}#gabriel-creative-portfolio .gp-mobile-nav{display:block}#gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}#gabriel-creative-portfolio .gp-section{padding-top:37px;padding-bottom:37px}#gabriel-creative-portfolio .gp-section-head{display:block}#gabriel-creative-portfolio .gp-section-head>p{margin-top:12px;max-width:none}#gabriel-creative-portfolio .gp-section-head h2{font-size:2.125rem}#gabriel-creative-portfolio .gp-projects{grid-template-columns:1fr;gap:28px}#gabriel-creative-portfolio .gp-preview{height:200px;padding:24px}#gabriel-creative-portfolio .gp-demo-window{max-width:330px;width:100%;margin-left:auto;margin-right:auto}#gabriel-creative-portfolio .gp-project h3{font-size:1.5rem}#gabriel-creative-portfolio .gp-project>p:last-of-type{min-height:0}#gabriel-creative-portfolio .gp-method-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}#gabriel-creative-portfolio .gp-idea{grid-template-columns:1fr;gap:10px}#gabriel-creative-portfolio .gp-about{grid-template-columns:1fr;gap:21px}#gabriel-creative-portfolio .gp-contact-inner{display:block}#gabriel-creative-portfolio .gp-contact .gp-button{margin-top:22px}#gabriel-creative-portfolio .gp-footer{display:block}#gabriel-creative-portfolio .gp-footer-links{margin-top:8px}#gabriel-creative-portfolio .gp-strip{justify-content:flex-start;gap:8px 20px}}@media(max-width:350px){#gabriel-creative-portfolio .gp-hero h1{font-size:2.5rem}#gabriel-creative-portfolio .gp-wrap{padding-left:16px;padding-right:16px}#gabriel-creative-portfolio .gp-note{margin-right:5px;padding:16px}#gabriel-creative-portfolio .gp-note-two{margin-left:10px;padding:16px}#gabriel-creative-portfolio .gp-step-line{font-size:0.875rem}}}</style>
+<style id="readability-adjustments">
+/* Readable text sizes and flexible containers for larger type. */
+#gabriel-creative-portfolio{font-size:1.125rem;line-height:1.65}
+#gabriel-creative-portfolio :is(.gp-lead,.gp-section-head>p,.gp-project>p:last-of-type,.gp-project-details p,.gp-method-step p,.gp-idea p,.gp-about-copy p,.gp-contact p,.gp-resume p:not(.gp-eyebrow)){font-size:1.125rem;line-height:1.65}
+#gabriel-creative-portfolio :is(.gp-links,.gp-mobile-nav,.gp-button,.gp-project summary){font-size:1.125rem;line-height:1.45}
+#gabriel-creative-portfolio :is(.gp-project-details strong,.gp-project-details a,.gp-text-link){font-size:1rem;line-height:1.5}
+#gabriel-creative-portfolio .gp-project-category{line-height:1.5;letter-spacing:.06em}
+#gabriel-creative-portfolio .gp-eyebrow{line-height:1.5;letter-spacing:.075em}
+#gabriel-creative-portfolio .gp-hero h1{line-height:1.12;letter-spacing:-.035em}
+#gabriel-creative-portfolio :is(.gp-section-head h2,.gp-about h2,.gp-contact h2,.gp-resume h2){line-height:1.2}
+#gabriel-creative-portfolio .gp-project h3{line-height:1.3}
+#gabriel-creative-portfolio .gp-section-head{align-items:start;gap:2rem}
+#gabriel-creative-portfolio .gp-section-head>p{max-width:23rem}
+#gabriel-creative-portfolio .gp-lead{max-width:29rem}
+#gabriel-creative-portfolio .gp-button{white-space:normal;text-align:center;min-height:3rem}
+#gabriel-creative-portfolio .gp-preview{height:auto;min-height:17rem;padding:3.25rem 1.125rem 1.375rem;justify-content:center}
+#gabriel-creative-portfolio .gp-preview-label{position:static;margin-bottom:.875rem;line-height:1.5}
+#gabriel-creative-portfolio .gp-demo-window{margin-top:0;max-width:100%;line-height:1.5}
+#gabriel-creative-portfolio .gp-demo-title{line-height:1.4}
+#gabriel-creative-portfolio .gp-demo-row{align-items:start}
+#gabriel-creative-portfolio .gp-chat-question{margin-left:.5rem}
+#gabriel-creative-portfolio .gp-chat-answer{margin-right:.5rem}
+#gabriel-creative-portfolio .gp-step-line{flex-wrap:wrap;justify-content:flex-start;gap:.5rem .75rem;font-size:.875rem}
+#gabriel-creative-portfolio .gp-projects{gap:2rem 1.5rem}
+#gabriel-creative-portfolio .gp-project>p:last-of-type{min-height:0}
+#gabriel-creative-portfolio .gp-project summary{gap:1rem;min-height:3rem}
+#gabriel-creative-portfolio .gp-project-details{padding:1.25rem;gap:1rem}
+#gabriel-creative-portfolio .gp-method-grid{gap:1.75rem}
+#gabriel-creative-portfolio .gp-idea{grid-template-columns:minmax(13rem,1fr) 2.5fr}
+#gabriel-creative-portfolio .gp-idea p{max-width:60ch}
+#gabriel-creative-portfolio .gp-resume{grid-template-columns:1fr 1fr;gap:2rem}
+#gabriel-creative-portfolio .gp-footer-links{flex-wrap:wrap}
+#gabriel-creative-portfolio .gp-monogram{flex-shrink:0;width:2.5rem;height:2.5rem}
+@media(max-width:1080px){
+  #gabriel-creative-portfolio .gp-links{display:none}
+  #gabriel-creative-portfolio .gp-mobile-nav{display:block}
+  #gabriel-creative-portfolio .gp-nav{flex-wrap:wrap}
+  #gabriel-creative-portfolio .gp-mobile-nav[open]{width:100%}
+  #gabriel-creative-portfolio .gp-projects{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #gabriel-creative-portfolio .gp-method-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  #gabriel-creative-portfolio .gp-hero{grid-template-columns:1fr;gap:2rem}
+  #gabriel-creative-portfolio .gp-desk{width:100%;max-width:none}
+  #gabriel-creative-portfolio .gp-section-head{display:block}
+  #gabriel-creative-portfolio .gp-section-head>p{max-width:60ch;margin-top:1rem}
+  #gabriel-creative-portfolio .gp-about{grid-template-columns:1fr;gap:1.5rem}
+  #gabriel-creative-portfolio .gp-resume{grid-template-columns:1fr;gap:1.5rem}
+  #gabriel-creative-portfolio .gp-contact-inner{display:block}
+  #gabriel-creative-portfolio .gp-contact .gp-button{margin-top:1.5rem}
+}
+@media(max-width:640px){
+  #gabriel-creative-portfolio .gp-projects{grid-template-columns:1fr}
+  #gabriel-creative-portfolio .gp-idea{grid-template-columns:1fr;gap:1rem}
+  #gabriel-creative-portfolio .gp-preview{min-height:15rem;padding:1.5rem}
+  #gabriel-creative-portfolio .gp-resume-actions{display:grid;grid-template-columns:1fr}
+  #gabriel-creative-portfolio .gp-resume-actions .gp-button{font-size:1.125rem;width:100%}
+  #gabriel-creative-portfolio .gp-note{transform:none;margin-right:0}
+  #gabriel-creative-portfolio .gp-note-two{transform:none;margin-left:0}
+}
+@media(max-width:400px){
+  #gabriel-creative-portfolio .gp-method-grid{grid-template-columns:1fr}
+  #gabriel-creative-portfolio .gp-actions{display:grid;grid-template-columns:1fr}
+  #gabriel-creative-portfolio .gp-hero h1{font-size:2.5rem}
+  #gabriel-creative-portfolio .gp-brand{gap:.5rem}
+}
+
+</style>
+
   <header class="gp-header"><div class="gp-wrap gp-nav"><a class="gp-brand cursor-interaction" href="#gp-start"><span class="gp-monogram">GM</span>Gabriel Monteiro</a><nav class="gp-links" aria-label="Navegação principal"><a href="#gp-projects" class="cursor-interaction">Projetos</a><a href="#gp-ideas" class="cursor-interaction">Ideias</a><a href="#gp-about" class="cursor-interaction">Sobre mim</a><a href="#gp-resume" class="cursor-interaction">Currículo</a><a href="#gp-contact" class="cursor-interaction">Vamos conversar ↗</a></nav><details class="gp-mobile-nav"><summary class="cursor-interaction">Menu +</summary><nav aria-label="Menu para celular"><a class="cursor-interaction" href="#gp-projects">Projetos</a><a class="cursor-interaction" href="#gp-ideas">Ideias</a><a class="cursor-interaction" href="#gp-about">Sobre mim</a><a class="cursor-interaction" href="#gp-resume">Currículo</a><a class="cursor-interaction" href="#gp-contact">Contato</a></nav></details></div></header>
   <main id="conteudo">
     <section class="gp-wrap gp-hero" id="gp-start"><div><p class="gp-eyebrow">Informação · Dados · Soluções digitais</p><h1>Transformo informação em <em>soluções</em> que fazem sentido.</h1><p class="gp-lead">Crio ferramentas, organizo processos e uso dados para tornar o trabalho mais claro e eficiente.</p><div class="gp-actions"><a class="gp-button cursor-interaction" href="#gp-projects">Explore meus projetos <span aria-hidden="true">↗</span></a><a class="gp-button gp-button-secondary cursor-interaction" href="#gp-ideas">Conheça minhas ideias</a></div><p class="gp-hero-caption">Gabriel Monteiro Ramos · Brasília, DF</p></div><div class="gp-desk" aria-label="Composição visual: uma ideia se transforma em uma solução"><div class="gp-desk-head"><span><span class="gp-dot"></span>Meu ponto de partida</span><span aria-hidden="true">↗</span></div><div class="gp-note"><small>A PERGUNTA</small><p>Como tornar esta informação mais útil?</p></div><div class="gp-note-two"><small>A POSSIBILIDADE</small><p>Um painel mais claro.<br>Uma consulta mais simples.<br>Um processo mais organizado.</p><div class="gp-step-line"><span>Entender</span><span aria-hidden="true">→</span><span>Criar</span><span aria-hidden="true">→</span><span>Melhorar</span></div></div></div></section>
@@ -170,3 +239,4 @@ a:focus-visible,summary:focus-visible{outline:3px solid light-dark(#406b53,#c4d7
 </div>
 
 </body></html>
+
