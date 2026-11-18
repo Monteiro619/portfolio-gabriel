@@ -60,4 +60,16 @@ Use números sem separador de milhar e com ponto decimal. A importação exige *
 
 ## Escopo da demonstração
 
-O foco está no fluxo de consulta e organização dos dados. Integração com fontes oficiais, autenticação e banco compartilhado são possíveis evoluções e não fazem parte desta versão. Os testes automatizados verificam cálculos, filtros, situações e CSV; a revisão visual em navegador e dispositivos físicos não foi realizada no ambiente de publicação.
+O foco está no fluxo de consulta e organização dos dados. Integração com fontes oficiais, autenticação e banco compartilhado são possíveis evoluções e não fazem parte desta versão. Os testes automatizados verificam cálculos, filtros, situações e CSV. O painel também foi verificado em navegador na publicação pública. A verificação em dispositivos físicos permanece pendente.
+
+## Acesso público e gratuito
+
+O painel está disponível no GitHub Pages para qualquer pessoa acessar e testar sem login:
+
+**https://monteiro619.github.io/portfolio-gabriel/painel-emendas/**
+
+A aplicação funciona com hospedagem estática, sem servidor pago, assinatura ou chave de API. Os dados são demonstrativos, e as alterações de cada visitante ficam no próprio navegador.
+
+**[Baixar o pacote de código do site original](codigo-fonte.zip)**
+
+O pacote contém os arquivos do site original. O JavaScript de interação, o modelo de dados e os estilos da versão publicada foram comparados com a versão do Site e são idênticos. No navegador foram conferidos o acesso público, o filtro por área, o salvamento de registro e o download do CSV.
